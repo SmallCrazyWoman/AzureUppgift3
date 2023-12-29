@@ -4,7 +4,7 @@ html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-h1:focus {
+h1 {
     color: #ff0000;
 }
 
@@ -13,13 +13,15 @@ a, .btn-link {
 }
 
 .btn-primary {
-    color: #fff;
+    color: #ffffff;
     background-color: #000000;
-    border-color: #ff0000;
+
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    border-color: #ff0000;
+    color: #ffffff;
+    background-color: #000000;
 }
 
 .content {
