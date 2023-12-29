@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "nguppgift3FunctionApp": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7139"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 30661,
+      "useSSL": false
+    }
+  }
+}
